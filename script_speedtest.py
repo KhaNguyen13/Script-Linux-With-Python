@@ -20,11 +20,11 @@ Your Choice: '''))
 
 if option == 1:
 
-	print(st.download())
+	print(str(round(st.download()//1000000)))
 
 elif option == 2:
 
-	print(st.upload())
+	print(str(round(st.upload()//1000000)))
 
 elif option == 3:
 
