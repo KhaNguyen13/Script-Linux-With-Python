@@ -19,13 +19,12 @@ Your Choice: '''))
 
 
 if option == 1:
-
-	print(str(round(st.download()//1000000), "Mb/s"))
-
+    download_s = str(round(st.download()//1000000))
+    print(download_s + " Mb/s")
+    
 elif option == 2:
-
-	print(str(round(st.upload()//1000000), "Mb/s"))
-
+    upload_s = str(round(st.upload()//1000000))
+    print(upload_s + " Mb/s")
 elif option == 3:
 
 	servernames =[]
