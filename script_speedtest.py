@@ -20,11 +20,11 @@ Your Choice: '''))
 
 if option == 1:
 
-	print(str(round(st.download()//1000000) + "Mb/s"))
+	print(str(round(st.download()//1000000), "Mb/s"))
 
 elif option == 2:
 
-	print(str(round(st.upload()//1000000) + "Mb/s"))
+	print(str(round(st.upload()//1000000), "Mb/s"))
 
 elif option == 3:
 
