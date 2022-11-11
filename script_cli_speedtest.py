@@ -6,3 +6,4 @@ Created on Tue Nov  8 11:16:02 2022
 """
 import os
 s = os.system("speedtest-cli --bytes")
+print(s)
