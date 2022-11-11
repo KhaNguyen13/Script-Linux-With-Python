@@ -5,4 +5,4 @@ Created on Tue Nov  8 11:16:02 2022
 @author: KhaNguyen-SEMIFIVE
 """
 import os
-s = os.system("speedtest-cli --simple --bytes")
+s = os.system("speedtest-cli --bytes")
