@@ -19,7 +19,7 @@ up = "Upload"
 windows = Tk() # Tao cua so gui
 windows.title("Title - Speed Test - Kha")
 windows.geometry("350x200") # Size gui
-
+####
 # Them lable noi dung download/upload
 down_lable = Label(windows, text=downs).grid(column=0, row=0, sticky=W)
 up_lable = Label(windows, text=up).grid(column=0, row=1, sticky=W)
