@@ -6,7 +6,7 @@ def bytes_to_mb(bytes):
   MB = KB * 1024 # One MB is 1024 KB
   return int(bytes/MB)
 
-# st = speedtest.Speedtest()
+# st = speedtest.Speedtest(secure=True)
 # print("Download: ", bytes_to_mb(st.download()), "Mb/s")
 # print("Upload: ", bytes_to_mb(st.upload()), "Mb/s")
 
