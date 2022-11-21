@@ -17,7 +17,7 @@ downs = "Download"
 up = "Upload"
 
 windows = Tk() # Tao cua so gui
-windows.title("Title - Speed Test - Kha")
+windows.title("Title - Speed Test")
 windows.geometry("350x200") # Size gui
 ####
 # Them lable noi dung download/upload
