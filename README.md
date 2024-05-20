@@ -1,1 +1,1 @@
-# Script Linux With Python -- Kha
+# Script Linux With Python -- Felix
